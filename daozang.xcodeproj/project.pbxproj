@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B98CE7814852E840051657A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B98CE7714852E840051657A /* UIKit.framework */; };
+		1B98CE7A14852E840051657A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B98CE7914852E840051657A /* Foundation.framework */; };
+		1B98CE7C14852E840051657A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B98CE7B14852E840051657A /* CoreGraphics.framework */; };
+		1B98CE8214852E840051657A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B98CE8014852E840051657A /* InfoPlist.strings */; };
+		1B98CE8414852E840051657A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B98CE8314852E840051657A /* main.m */; };
+		1B98CE8814852E840051657A /* DaoZangAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B98CE8714852E840051657A /* DaoZangAppDelegate.m */; };
+		1B98CE8B14852E840051657A /* DaoZangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B98CE8A14852E840051657A /* DaoZangViewController.m */; };
+		1B98CE8E14852E840051657A /* DaoZangViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B98CE8C14852E840051657A /* DaoZangViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B98CE7314852E840051657A /* daozang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = daozang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B98CE7714852E840051657A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1B98CE7914852E840051657A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B98CE7B14852E840051657A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1B98CE7F14852E840051657A /* daozang-Info.plist */ = {isa = PBXFileReference; path = "daozang-Info.plist"; sourceTree = "<group>"; };
+		1B98CE8114852E840051657A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B98CE8314852E840051657A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B98CE8514852E840051657A /* daozang-Prefix.pch */ = {isa = PBXFileReference; path = "daozang-Prefix.pch"; sourceTree = "<group>"; };
+		1B98CE8614852E840051657A /* DaoZangAppDelegate.h */ = {isa = PBXFileReference; path = DaoZangAppDelegate.h; sourceTree = "<group>"; };
+		1B98CE8714852E840051657A /* DaoZangAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaoZangAppDelegate.m; sourceTree = "<group>"; };
+		1B98CE8914852E840051657A /* DaoZangViewController.h */ = {isa = PBXFileReference; path = DaoZangViewController.h; sourceTree = "<group>"; };
+		1B98CE8A14852E840051657A /* DaoZangViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaoZangViewController.m; sourceTree = "<group>"; };
+		1B98CE8D14852E840051657A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DaoZangViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B98CE7014852E840051657A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B98CE7814852E840051657A /* UIKit.framework in Frameworks */,
+				1B98CE7A14852E840051657A /* Foundation.framework in Frameworks */,
+				1B98CE7C14852E840051657A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B98CE6814852E840051657A = {
+			isa = PBXGroup;
+			children = (
+				1B98CE7D14852E840051657A /* daozang */,
+				1B98CE7614852E840051657A /* Frameworks */,
+				1B98CE7414852E840051657A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B98CE7414852E840051657A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B98CE7314852E840051657A /* daozang.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B98CE7614852E840051657A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B98CE7714852E840051657A /* UIKit.framework */,
+				1B98CE7914852E840051657A /* Foundation.framework */,
+				1B98CE7B14852E840051657A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B98CE7D14852E840051657A /* daozang */ = {
+			isa = PBXGroup;
+			children = (
+				1B98CE8614852E840051657A /* DaoZangAppDelegate.h */,
+				1B98CE8714852E840051657A /* DaoZangAppDelegate.m */,
+				1B98CE8914852E840051657A /* DaoZangViewController.h */,
+				1B98CE8A14852E840051657A /* DaoZangViewController.m */,
+				1B98CE8C14852E840051657A /* DaoZangViewController.xib */,
+				1B98CE7E14852E840051657A /* Supporting Files */,
+			);
+			path = daozang;
+			sourceTree = "<group>";
+		};
+		1B98CE7E14852E840051657A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B98CE7F14852E840051657A /* daozang-Info.plist */,
+				1B98CE8014852E840051657A /* InfoPlist.strings */,
+				1B98CE8314852E840051657A /* main.m */,
+				1B98CE8514852E840051657A /* daozang-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B98CE7214852E840051657A /* daozang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B98CE9114852E840051657A /* Build configuration list for PBXNativeTarget "daozang" */;
+			buildPhases = (
+				1B98CE6F14852E840051657A /* Sources */,
+				1B98CE7014852E840051657A /* Frameworks */,
+				1B98CE7114852E840051657A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = daozang;
+			productName = daozang;
+			productReference = 1B98CE7314852E840051657A /* daozang.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B98CE6A14852E840051657A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1B98CE6D14852E840051657A /* Build configuration list for PBXProject "daozang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B98CE6814852E840051657A;
+			productRefGroup = 1B98CE7414852E840051657A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B98CE7214852E840051657A /* daozang */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B98CE7114852E840051657A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B98CE8214852E840051657A /* InfoPlist.strings in Resources */,
+				1B98CE8E14852E840051657A /* DaoZangViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B98CE6F14852E840051657A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B98CE8414852E840051657A /* main.m in Sources */,
+				1B98CE8814852E840051657A /* DaoZangAppDelegate.m in Sources */,
+				1B98CE8B14852E840051657A /* DaoZangViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B98CE8014852E840051657A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B98CE8114852E840051657A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1B98CE8C14852E840051657A /* DaoZangViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B98CE8D14852E840051657A /* en */,
+			);
+			name = DaoZangViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B98CE8F14852E840051657A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B98CE9014852E840051657A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B98CE9214852E840051657A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "daozang/daozang-Prefix.pch";
+				INFOPLIST_FILE = "daozang/daozang-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1B98CE9314852E840051657A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "daozang/daozang-Prefix.pch";
+				INFOPLIST_FILE = "daozang/daozang-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B98CE6D14852E840051657A /* Build configuration list for PBXProject "daozang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B98CE8F14852E840051657A /* Debug */,
+				1B98CE9014852E840051657A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B98CE9114852E840051657A /* Build configuration list for PBXNativeTarget "daozang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B98CE9214852E840051657A /* Debug */,
+				1B98CE9314852E840051657A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B98CE6A14852E840051657A /* Project object */;
+}
