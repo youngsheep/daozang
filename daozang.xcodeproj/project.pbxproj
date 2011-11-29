@@ -22,13 +22,13 @@
 		1B98CE7714852E840051657A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1B98CE7914852E840051657A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1B98CE7B14852E840051657A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1B98CE7F14852E840051657A /* daozang-Info.plist */ = {isa = PBXFileReference; path = "daozang-Info.plist"; sourceTree = "<group>"; };
+		1B98CE7F14852E840051657A /* daozang-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "daozang-Info.plist"; sourceTree = "<group>"; };
 		1B98CE8114852E840051657A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1B98CE8314852E840051657A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1B98CE8514852E840051657A /* daozang-Prefix.pch */ = {isa = PBXFileReference; path = "daozang-Prefix.pch"; sourceTree = "<group>"; };
-		1B98CE8614852E840051657A /* DaoZangAppDelegate.h */ = {isa = PBXFileReference; path = DaoZangAppDelegate.h; sourceTree = "<group>"; };
+		1B98CE8514852E840051657A /* daozang-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "daozang-Prefix.pch"; sourceTree = "<group>"; };
+		1B98CE8614852E840051657A /* DaoZangAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DaoZangAppDelegate.h; sourceTree = "<group>"; };
 		1B98CE8714852E840051657A /* DaoZangAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaoZangAppDelegate.m; sourceTree = "<group>"; };
-		1B98CE8914852E840051657A /* DaoZangViewController.h */ = {isa = PBXFileReference; path = DaoZangViewController.h; sourceTree = "<group>"; };
+		1B98CE8914852E840051657A /* DaoZangViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DaoZangViewController.h; sourceTree = "<group>"; };
 		1B98CE8A14852E840051657A /* DaoZangViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaoZangViewController.m; sourceTree = "<group>"; };
 		1B98CE8D14852E840051657A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DaoZangViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
